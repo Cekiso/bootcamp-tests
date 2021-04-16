@@ -1,5 +1,5 @@
 function isWeekday(day) {
-    return day.startsWith('M', 'T', 'w', 'T', 'F');
+    return day.startsWith('Monday', 'Tuesday', 'Wedsday', 'Thursday', 'Friday');
 }
 console.log(isWeekday('Monday'));
 console.log(isWeekday('Tuesday'));
