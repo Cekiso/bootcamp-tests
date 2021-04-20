@@ -9,5 +9,9 @@ describe('transportFee', function() {
 
 
     });
+    it('In the nightshift it should returns free', function() {
+        assert.equal(transportFee('nightshift'), 'free');
 
+
+    });
 });
